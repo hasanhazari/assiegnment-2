@@ -1,0 +1,57 @@
+/* Navber styles */
+header{
+    background-color: rgba(255, 182, 193, 0.678);
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.contant-title{
+    font-size: 25px;
+}
+.section-item{
+    justify-content: space-evenly;
+}
+.list-item{
+    display: flex;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+/* Brand New Group of Architects styles */
+
+.had-control{
+   text-align: center;
+}
+.section-title{
+    width: 600px;
+    font-weight: 700;
+    font-size: 60px;
+    color: #131313;
+    margin: 20px 350px 20px 350px;
+}
+.para-size{
+    width: 700px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin: 0 300px 20px 300px;
+}
+.btn-color{
+    font-weight: 900px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: orange;
+    padding: 21px 26px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.image-size img{
+    width: 1100px;
+    height: 600px;
+    border-radius: 9px;
+}
