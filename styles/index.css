@@ -233,6 +233,16 @@ margin-left: 50px;
     border-radius: 8px;
 
 }
+li > a{
+    text-decoration: none;
+    color: black;
+}
+li > a:hover{
+    text-decoration: none;
+    color: red;
+    border-bottom: 2px solid red;
+    transition-duration: .5s;
+}
 .icons, img{
     text-align: center;
     margin-top: 40px;
@@ -302,24 +312,79 @@ margin-left: 50px;
   ----------------*/
 
   @media screen and (max-width: 576px){
+    *{
+        margin: 0;
+        padding: 0;
+
+    }
+    body{
+        width: 100%t;
+    }
     header{
-        background-color: lightgoldenrodyellow;
-        width: 400px;
-        height: 1100px;
-        margin-bottom: 50px;
+        background-color: white;
+        width: 380px;
+        height: 1100px;;
     }
     .container{
-        width: 700px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         height: 100px;
+        padding-left: 35px;
+        padding-right: 5px;
     }
     .contant-title{
         font-size: 25px;
+        text-align: center;
+        width: 100%;
+        display: block;
     }
     .section-item{
+        margin-left: 0;       width: 100%;
+        padding-right: 50px;
+        text-align: center;
+        justify-items: center;
     }
     .list-item{
-        gap: 40px;
         margin-top: 30px;
+    }
+    .image-size{
+        width: 200px;
+        height: 300px;
+    }
+    section{
+        width: 100%;
+
+    }
+    .had-control{
+        width: 100%;
+    }
+    .had-control > div{
+        width: 100%;
+    }
+    div > .section-title{
+        width: 100%;
+        padding-left: 30px;
+        margin: 10px 30px 0px 0px;
+        font-size: 30px;
+    }
+    .para-size{
+        width: 100%;
+        font-weight: 200;
+        font-size: 12px;
+        color: #727272;
+        margin: 15px 30px 10px 10px;
+        overflow: hidden;
+    }
+    .btn-color{
+        font-weight: 500px;
+        font-size: 13px;
+        color: #FFFFFF;
+        background-color: orange;
+        padding: 9px 10px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+    
     }
   }
 
