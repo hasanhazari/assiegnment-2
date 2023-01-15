@@ -1,4 +1,6 @@
-/* Navber styles */
+/*----------------- 
+Navber styles
+--------------------*/
 header{
     background-color: lightgoldenrodyellow;
     height: 1100px;
@@ -23,7 +25,9 @@ header{
     margin-top: 30px;
 }
 
-/* Brand New Group of Architects styles */
+/*------------------------------------
+ Brand New Group of Architects styles 
+ --------------------------------------*/
 
 .had-control{
    text-align: center;
@@ -59,7 +63,9 @@ header{
     margin-bottom: 40px;
 }
 
-/* Team member photo styles */
+/*----------------------
+Team member photo styles
+-------------------------- */
 
 .team-up{
     display: grid;
@@ -69,7 +75,6 @@ header{
 }
 .image-position{
     width: 345px;
-    border: 1px solid;
 }
 .contect-aria{
     
@@ -117,7 +122,9 @@ header{
     color: orangered;
 }
 
-/* Features-you-will */
+/*-----------------
+ Features-you-will 
+ --------------------*/
 .Hasan{
     margin-top: 100px;
     margin-bottom: 150px;
@@ -148,7 +155,10 @@ margin-left: 50px;
     height: 78px;
 }
 .list-contant{
- margin-left: 50px;
+    width: 500px;
+    margin-left: 50px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
 }
 .D-style{
     font-weight: 600;
@@ -179,7 +189,9 @@ margin-left: 50px;
     font-size: 25px;
 }
 
-/* Some Facts styles */
+/*-------------------
+ Some Facts styles 
+ --------------------*/
 .hp-main{
     margin-left: 30px;
     margin-bottom: 100px;
@@ -197,4 +209,79 @@ margin-left: 50px;
 
 }
 
+/*---------------
+ icons styles 
+ -----------------*/
+
+.icon-info{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    
+}
+.icons{
+    border: 1px solid orangered;
+    width: 241px;
+    height: 241px;
+    border-radius: 8px;
+
+}
+.icons, img{
+    text-align: center;
+    margin-top: 40px;
+}
+.number{
+    font-weight: 600;
+    font-size: 40px;
+    color: #424242;
+    text-align: center;
+}
+.last-word{
+    font-weight: 600;
+    font-size: 15px;
+    color: #727272;
+    text-align: center;
+
+}
+
+/*--------------------
+ footer styles 
+ --------------------*/
+
+.spons-suffer-head{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.spons{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.suffer{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+
+
+.sponsser-item{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+}
+.footer-info{
+    width: 1000px;
+    border-radius: 10px;
+    background-color:  lightgoldenrodyellow;
+    text-align: center;
+    margin: 0 150px 10px 150px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+
+}
+.footer{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+}
 
