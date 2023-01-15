@@ -442,5 +442,49 @@ li > a:hover{
             margin-bottom: 70px;
             display: block;
         }
+        .hp-main{
+            margin-left: 20px;
+            margin-bottom: 20px;
+            margin-top: 550px;
+        }
+        .battun-color{
+            font-weight: 700;
+            color: white;
+            background-color: orange;
+            border-radius: 8px;
+            padding: 10px 12px;
+            margin-left: 30px;
+        }
+        .battun-color .white{
+            font-size: 25px;
+        }
+        .battun-color .brack{
+            font-size: 18px;
+        }
+        .footer-info{
+            width: 350px;
+            border-radius: 5px;
+            background-color:  lightgoldenrodyellow;
+            text-align: center;
+            margin: 10px 10px 10px 10px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            margin-bottom: 35px;
+        
+        }
+        .sponsser-item{
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            margin-bottom: 70px;
+            margin-left: 80px;
+            filter: grayscale(100%);
+        }
+        
+    .icon-info{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 100px;
+    margin-left: 100px;
+    }
   }
 
