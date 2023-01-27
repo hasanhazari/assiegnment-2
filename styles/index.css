@@ -53,7 +53,18 @@ header{
     font-weight: 900px;
     font-size: 16px;
     color: #FFFFFF;
+    background-color: lightcoral;
+    padding: 21px 26px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+
+}
+.btn-color:hover {
+    font-weight: 900px;
+    font-size: 16px;
+    color: #FFFFFF;
     background-color: orange;
+    transition: ease-out 1s;
     padding: 21px 26px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -228,6 +239,16 @@ margin-left: 50px;
     
 }
 .icons{
+    border: 1px solid orangered;
+    width: 241px;
+    height: 241px;
+    border-radius: 8px;
+
+}
+.icons:hover {
+    background-color: rgba(255, 0, 0, 0.39) 
+    ;
+    transition: ease-out 1s;
     border: 1px solid orangered;
     width: 241px;
     height: 241px;
